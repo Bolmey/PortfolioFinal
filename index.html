@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Hamburger Menu</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Your Logo</div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="header-container">
+      <div class="header-headline">
+        <h1 class="headline-h1">
+          I AM JUAN BOLMEY - A PASSIONATE WEB DEVELOPER WITH 4+ YEARS OF
+          EXPERIENCE.
+        </h1>
+        <p>
+          Welcome to my web development portfolio. I specialize in creating
+          stunning websites and web applications. Check out my work and feel
+          free to reach out to me.
+        </p>
+      </div>
+    </section>
+
+    <section class="hero-container">
+      <div class="hero-img-container">
+        <img class="hero-img" src="/assets/hero-img.jpeg" />
+      </div>
+      <div class="header-exp">
+        <div class="header-exp1">
+          <h2>50+</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="header-exp1">
+          <h2>3+</h2>
+          <p>Years of Experience</p>
+        </div>
+        <div class="header-exp1">
+          <h2>12</h2>
+          <p>Web Designs</p>
+        </div>
+        <div class="header-exp1">
+          <h2>35+</h2>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="testimonial-container">
+        <div class="testimonial-box">
+          <h3>Client Testimonial</h3>
+
+          <h2>
+            “Working with Juan was a pleasure. He has a keen eye for design and
+            delivered exceptional websites for us every time.”
+          </h2>
+          <p>- Daniela Eizmendiz, CEO of Theapist Style Co.</p>
+        </div>
+        <div class="testimonial-img-container">
+          <img class="testimonial-img" src="/assets/contact-img.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services-container">
+      <div>
+        <img src="/assets/Icon users.png" />
+        <p>WEB DEVELOPMENT</p>
+      </div>
+      <div>
+        <img src="/assets/Icon palette.png" />
+        <p>WEB DESIGN</p>
+      </div>
+      <div>
+        <img src="/assets/Icon code.png" />
+        <p>UI/UX DESIGN</p>
+      </div>
+    </section>
+
+    <section class="projects-container">
+      <h2>My Projects</h2>
+      <div class="project-boxes">
+        <div>
+          <img src="/assets/webpage-1.png" />
+        </div>
+        <div>
+          <img src="/assets/project_1.png" />
+        </div>
+        <div>
+          <img src="/assets/project_2.png" />
+        </div>
+
+        <div>
+          <img src="/assets/project_3.png" />
+        </div>
+      </div>
+      <div class="project-button-container">
+        <a href="/portfolio.html" class="project-button">VIEW MORE PROJECTS</a>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <h2>Let's work together!</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <hr />
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="section-footer-container">
+      <p>&copy; 2023 Juan Bolmey</p>
+      <div>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

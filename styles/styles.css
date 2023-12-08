@@ -1,0 +1,476 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* NAV BAR END */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.hero-container {
+    max-width: 1440px;
+   
+
+}
+
+.hero-img-container {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.hero-img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: -275px;
+}
+
+.header-headline h1 {
+    font-size: 2.5em;
+    padding: 20px 20px 20px 0px;
+}
+
+.header-headline p {
+    align-self: flex-end;
+    padding: 20px 0px 20px 20px;
+}
+
+
+.header-headline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.header-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0 0 0;
+}
+
+.header-exp h2 {
+    margin: 10px 0 0 0 ;
+    font-size: 2.5em;
+    width: 70px;
+}
+
+.header-exp p {
+    margin: 10px 0 0 0 ;
+    width: 70px;
+}
+
+.testimonial-section {
+    background-color: #141414;
+    color: white;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonial-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-box {
+    padding: 60px 0 60px 0;
+    width: 90%;
+    
+    
+}
+
+.testimonial-img-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-box h2{
+    width: 70%;
+    font-size: 2em;
+
+}
+
+.testimonial-box p {
+    font-size: 1em;
+}
+
+.testimonial-img {
+    width: auto;
+    border-radius: 100px;
+    height: 200px;
+}
+
+.services-container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    display: row;
+    justify-content: center;
+    padding: 100px 0px;
+
+
+}
+
+.services-container div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+
+.services-container img {
+    width: 80px;
+    padding: 20px;
+}
+
+.projects-container {
+    max-width: 1440px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+
+}
+
+.project-boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-boxes div {
+    width: 49%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.project-boxes img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project-button-container { 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-button {
+    padding: 15px;
+    background-color: rgb(227, 224, 224);
+    border-radius: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Apply general styles to the form container */
+.contact-container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contact-container form {
+    width: 50%;
+}
+
+/* Style the form heading */
+.contact-container h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style the form labels */
+.contact-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+/* Style the form input fields */
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the form button */
+.contact-container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.contact-container div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add hover effect to the button */
+.contact-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the form HR line */
+.contact-container hr {
+    margin: 20px 0;
+    border: 0.5px solid #ddd;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+ 
+
+}
+
+footer div {
+    max-width: 1440px;
+    
+}
+
+footer a {
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .header-headline{
+        text-align: center;
+        flex-direction: column;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .header-headline h1{
+        padding-right: 0;
+    }
+
+    .header-headline p{
+        
+        padding: 10px 3px 10px 3px;
+    }
+
+    .hero-img {
+        border-radius: 0px;
+        margin-top: 0;
+    }
+
+    .hero-img-container {
+        height: auto;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .testimonial-container {
+        flex-direction: column-reverse;
+        padding-top: 70px;
+    }
+
+    .testimonial-box {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial-box h2 {
+        width: 100%;
+    }
+
+    .services-container {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .services-container div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .services-container p {
+        margin-top: 0px;
+    }
+
+    .projects-container {
+        margin: 5px 0 5px 0 ;
+        text-align: center;
+    }    
+
+
+    
+
+    .project-boxes div {
+        width: 90%;
+    }
+
+    .project-boxes {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .contact-container{
+        width: 100%;
+        margin: 20px 0 20px 0 ;
+        padding: 0px;
+       
+    }
+
+    .contact-container form {
+        width: 80%;
+    }
+
+    footer a {
+        padding: 5px;
+    }
+
+}
+
+

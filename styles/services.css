@@ -1,0 +1,263 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* NAV BAR END */
+
+
+.section-container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.web-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.web-container img{
+    width: 56px;
+
+}
+
+.web-container p{
+    width: 50%;
+    font-size: 1.2em;
+    
+}
+
+.services-box {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-box-2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.services-box-2 p{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.services-box p{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.services-container div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+
+.services-container img {
+    width: 80px;
+    padding: 20px;
+}
+
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    position: fixed;
+    bottom: 0;
+
+}
+
+footer div {
+    max-width: 1440px;
+    
+}
+
+footer a {
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+ 
+
+    .services-container {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .services-container div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .services-container p {
+        margin-top: 0px;
+    }
+
+    .projects-container {
+        margin: 5px 0 5px 0 ;
+        text-align: center;
+    }    
+
+
+    
+
+    .project-boxes div {
+        width: 90%;
+    }
+
+    .project-boxes {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+
+    
+    }
+ 
+
+    footer a {
+        padding: 5px;
+    }
+
+}
+
+

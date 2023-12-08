@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
+    <title>Hamburger Menu</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Your Logo</div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="projects-container">
+      <h2>My Projects</h2>
+      <div class="project-boxes">
+        <div class="boxes-shadow">
+          <a href="https://www.tesla.com/" target="_blank"
+            ><img src="/assets/webpage-1.png"
+          /></a>
+        </div>
+        <div class="boxes-shadow">
+          <a href="https://www.music.care/en/index.html" target="_blank"
+            ><img src="/assets/project_1.png"
+          /></a>
+        </div>
+        <div class="boxes-shadow">
+          <a href="https://www.noajewelry.shop/" target="_blank"
+            ><img src="/assets/project_2.png"
+          /></a>
+        </div>
+
+        <div class="boxes-shadow">
+          <a href="https://kiwichat.com/" target="_blank"
+            ><img src="/assets/project_3.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-footer-container">
+      <p>&copy; 2023 Juan Bolmey</p>
+      <div>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
