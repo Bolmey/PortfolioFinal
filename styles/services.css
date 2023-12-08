@@ -199,6 +199,11 @@ footer a {
         width: 100%;
     }
 
+    .logo img {
+        padding: 0;
+        width: 10%;
+    }
+
     .hamburger-menu {
         display: block;
     }
