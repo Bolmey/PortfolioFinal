@@ -35,6 +35,7 @@ header {
     width: 70px;
 }
 
+
 .navbar {
     display: flex;
     align-items: center;
@@ -71,6 +72,14 @@ header {
 }
 
 /* NAV BAR END */
+
+.headline-container {
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 20px;
+}
+
+
 
 
 .section-container {
@@ -150,7 +159,6 @@ header {
 }
 
 
-
 footer {
     width: 100%;
     display: flex;
@@ -163,8 +171,7 @@ footer {
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
-    position: fixed;
-    bottom: 0;
+ 
 
 }
 
@@ -177,7 +184,6 @@ footer a {
     color: white;
     padding: 20px;
 }
-
 
 
 
@@ -215,7 +221,43 @@ footer a {
         display: block;
     }
 
+    .headline-container {
+        padding-left: 40px;
+    }
+
+    .services-box {
+        flex-direction: column;
+    }
+
+    .services-box-2 {
+        flex-direction: column;
+    }
+
+    .services-box-3 {
+        flex-direction: column;
+    }
  
+    .services-box p{
+        flex-direction: column;
+        padding-right: 0;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .services-box-2 p {
+        flex-direction: column;
+        padding-right: 0;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .services-box-3 p {
+        flex-direction: column;
+        padding-right: 0;
+        width: 100%;
+        align-items: flex-start;
+    }
 
     .services-container {
         flex-direction: column;
@@ -229,12 +271,25 @@ footer a {
 
     .services-container p {
         margin-top: 0px;
+        
     }
 
     .projects-container {
         margin: 5px 0 5px 0 ;
         text-align: center;
     }    
+
+    .web-container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .web-container p {
+        display: flex;
+        align-items: flex-start;
+    }
 
 
     

@@ -260,7 +260,8 @@ header {
 /* Apply general styles to the form container */
 .contact-container {
     width: 100%;
-    margin: auto;
+    max-width: 1440px;
+    margin: 20px;
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 8px;

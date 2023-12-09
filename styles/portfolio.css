@@ -26,7 +26,15 @@ header {
 
 .logo {
     font-size: 1.5rem;
+    padding-left: 20px;
+
 }
+
+.logo img {
+    font-size: 1.5rem;
+    width: 70px;
+}
+
 
 .navbar {
     display: flex;
@@ -163,6 +171,11 @@ footer a {
 
     .hamburger-menu {
         display: block;
+    }
+
+    .logo img {
+        padding: 0;
+        width: 10%;
     }
 
 
