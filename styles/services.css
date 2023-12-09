@@ -26,6 +26,13 @@ header {
 
 .logo {
     font-size: 1.5rem;
+    padding-left: 20px;
+
+}
+
+.logo img {
+    font-size: 1.5rem;
+    width: 70px;
 }
 
 .navbar {
