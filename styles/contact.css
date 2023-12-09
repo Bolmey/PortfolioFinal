@@ -212,6 +212,10 @@ footer a {
         display: block;
     }
 
+    .button-container {
+        margin-bottom: 30px;
+    }
+
 
     .contact-container{
         width: 100%;
